@@ -1,0 +1,61 @@
+/* Estilos para la tarjeta de tipo de cambio */
+.tipo-cambio-card {
+    background: linear-gradient(135deg, #26645675, #5844cb91);
+    padding: 35px;
+    border-radius: 18px;
+    border-color: rgb(237, 217, 118);
+    border: 2px solid gold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.548); /* Sombra suave */
+    max-width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: transform 0.7s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.tipo-cambio-card:hover {
+    transform: perspective(1000px); /* Añade perspectiva */
+}
+
+.tipo-cambio-card:active {
+    transform: translateZ(20px); 
+}
+
+/* aqui pongo movimiento */
+.tipo-cambio-card:hover {
+    animation: tilt 0.5s ease-out infinite;
+}
+
+/* Definición de la animación de inclinación */
+@keyframes tilt {
+    0% { transform: rotate3d(1, 1, 0, 10deg); }
+    25% { transform: rotate3d(-1, 1, 0, 10deg); }
+    50% { transform: rotate3d(-1, -1, 0, 10deg); }
+    75% { transform: rotate3d(1, -1, 0, 10deg); }
+    100% { transform: rotate3d(1, 1, 0, 10deg); }
+}
+
+.tipo-cambio-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tipo-cambio-card p {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+/* Estilos para el texto de error */
+.error {
+    color: red;
+    text-align: center;
+}
+
+/* Estilos para el texto de carga */
+.loading {
+    text-align: center;
+    font-size: 25px;
+    color: #8226b4;
+}

@@ -1,0 +1,38 @@
+/* Estilos globales */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8ba6d1; /* Fondo color azul suave */
+  }
+  
+  /* Estilos para la página principal */
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: white;
+  }
+  
+  p {
+    font-size: 14px;
+    color: white;
+  }
+  
