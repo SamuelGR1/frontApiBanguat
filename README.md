@@ -1,3 +1,54 @@
+# Proyecto Frontend de Tipo de Cambio
+
+Este es el proyecto frontend desarrollado con Next.js para consumir datos del tipo de cambio a través del backend proporcionado en el siguiente repositorio: [backendApiBanGuat](https://github.com/SamuelGR1/backendApiBanGuat.git).
+
+## Requisitos Previos
+
+Antes de ejecutar este proyecto, asegúrate de tener instalado:
+
+- Node.js (versión 14 o superior)
+- npm o yarn (como administrador de paquetes)
+
+## Instalación
+
+1. Clona el repositorio del frontend:
+
+   ```bash
+   git clone https://github.com/SamuelGR1/frontApiBanguat.git
+
+
+
+## navega al directorio
+cd  tipo_cambio
+
+## Instala las dependencias del proyecto:
+npm install
+
+## Configuración
+Asegúrate de que el backend esté corriendo antes de iniciar el frontend. Debes seguir las instrucciones del README del backendApiBanGuat para configurar y ejecutar el backend correctamente.
+
+## Ejecución
+Una vez que el backend esté en funcionamiento, puedes iniciar el frontend:
+
+En terminal:
+npm run dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
